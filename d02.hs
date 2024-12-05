@@ -1,7 +1,5 @@
 module Main where
 
-import Data.List (sort)
-
 parse :: String -> [[Int]]
 parse = map (map read . words) . lines
 
